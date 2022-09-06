@@ -1,0 +1,65 @@
+.line {
+  height: 1px;
+  background-color: var(--gray);
+}
+
+.cart {
+  width: min(90vw, 500px);
+  background: var(--white);
+  border-radius: 1rem;
+
+  margin: 5rem auto;
+  padding: 1rem 0;
+}
+
+.cart h1.title {
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: var(--black);
+  text-align: center;
+}
+
+.content {
+  margin: 1rem 0;
+  padding: 0 2rem;
+}
+
+.totalPriceWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin-bottom: 1rem;
+}
+
+.alertFreeFrete {
+  width: 90%;
+  margin: 1rem auto;
+
+  background: var(--green-100);
+  
+  text-align: center;
+
+  border-radius: 2rem;
+
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.alertFreeFrete span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--green-900);
+}
+
+button.finalizePurchase {
+  width: 100%;
+  background-color: var(--blue);
+  padding: 1rem 0;
+  
+  border-radius: 0.5rem;
+
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--white);
+}
